@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="jquery-1.8.2.js"></script>
+    <script src="jquery.md5.js"></script>
+    <script src="candycrack.js"></script>
+</head>
+<body>
+<div>Candy Crush Crack by yuhengh</div>
+
+<hr>
+<div>Usage:</div>
+<li>Click on the icon to launch the plugin</li>
+<li>Launch Candy Crush, either click on or start a level</li>
+<li>Go to the plugin page, the session key, episode and level will be detected for the first time. Feel free to manually change them.</li>
+<li>Click on the complete level button to complete the level.</li>
+<div>Note: Like playing the game, you still need to complete and unlock levels one by one and ask your friends to get through new episodes</div>
+<div>For more information visit <a href="http://github.com/yuhengh/candycrushcrack">here</a> </div>
+<hr>
+<div>
+    <table>
+        <tr>
+            <td>userid</td>
+            <td>
+                <input type="text" id="userid"/>
+                <input type="button" value="get user" id="getUserButton">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>session</td>
+            <td><input type="text" id="session" value=""/></td>
+        </tr>
+
+        <tr>
+            <td>episode</td>
+            <td><input type="text" id="episode" value=""/></td>
+        </tr>
+
+        <tr>
+            <td>level</td>
+            <td><input type="text" id="level" value=""/></td>
+        </tr>
+
+        <tr>
+            <td>score</td>
+            <td><input type="text" id="score" disabled/>
+                <input type="radio" name="scoreBy" value="friend" id="scoreByFriend" checked/>Generate by friend
+                <input type="radio" name="scoreBy" value="rating" id="scoreByRating"/>Generate by rating
+                <input type="radio" name="scoreBy" value="input" id="scoreByInput"/>Manual Input
+            </td>
+        </tr>
+
+        <tr>
+            <td>seed</td>
+            <td><input type="text" id="seed" value="1364853349886" disabled/></td>
+        </tr>
+
+        <tr>
+            <td>cs</td>
+            <td><input type="text" id="cs" disabled/></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="complete level" id="completeLevelButton"/></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+
+    <div id="dataDiv"></div>
+</div>
+</body>
+</html>
