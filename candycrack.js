@@ -265,12 +265,15 @@ $(document).ready(function () {
 
             if ($('#session').attr('value') == '' && param._session)
                 $('#session').attr('value', param._session);
+                
+            if (param.arg0 && param.arg1)
+            {
+                if ($('#episode').attr('value') == '')
+                    $('#episode').attr('value', param.arg0);
 
-            if ($('#episode').attr('value') == '' && param.arg0)
-                $('#episode').attr('value', param.arg0);
-
-            if ($('#level').attr('value') == '' && param.arg1)
-                $('#level').attr('value', param.arg1);
+                if ($('#level').attr('value') == '')
+                    $('#level').attr('value', param.arg1);
+            }  
         }
     }
 
