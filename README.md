@@ -1,5 +1,9 @@
-Candy Crush Crack
+[DEPRECATED] Candy Crush Crack
 ===============
+
+[IMPORTANT] This tool no longer works after Candy Crush switched from Flash to HTML5 versioin.
+https://care.king.com/en/candy-crush-saga/candy-crush-hmtl5
+Thank you for using it, I wish you find a new way to unlock levels!
 
 Unlock level without hassle in Candy Crush Saga
 
